@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>MasterMind</title>
+</head>
+<body>
+    <header>
+        <h1>The Master Mind Game</h1>
+            <nav>
+            <ul>
+                <li><a href="/main.html">Game</a></li>
+                <li><a href="/help.html">Help</a></li>
+                <li><a href="/empresa.html">¿Quienes somos?</a></li>
+                <li><a href="/configuration.html">Configuration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-configuration">
+        <form>
+            <h1>Configuration</h1>
+            <p>
+                Bienvenido a la zona de configuración, en esta sección podrás configurar el juego a tu gusto
+            </p>
+            <label for="color1">Select a color:</label>
+            <input type="color" id="color1" name="color">
+            <br>
+            <br>
+            <label for="color2>">Select a color:</label>
+            <input type="color" id="color2" name="color">
+            <br>
+            <br>
+            <label for="color3">Select a color:</label>
+            <input type="color" id="color3" name="color">
+            <br>
+            <br>
+            <label for="color4">Select a color:</label>
+            <input type="color" id="color4" name="color"> 
+            <br>
+            <br>
+        </form>
+        <button class="save" type="submit" onclick="colorSelected()">Guardar configuración</button>
+    </main>
+    <footer>
+        <p>Developed by: <a href=" ">Wisdom</a></p>
+    </footer>
+</body>
+<script src="/js/main.js"></script>
+</html>

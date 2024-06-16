@@ -1,0 +1,228 @@
+/* ----------FUENTES--------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rotulo-variable", sans-serif;
+}
+body{
+    background-color: #F3E9D2;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3E9D2;
+}
+/* -------------------- Header -------------- */
+header{
+    color:white ;
+    background-color: #D9A87E;
+    padding: 15px;
+}
+h1{
+    font-family: "rotulo-variable", sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-around;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #3DC4E0;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+/*? ------------------ Game ----------------- */
+main.gameBoard {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.guess-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.guess-hole {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#color-picker {
+    margin-bottom: 20px;
+}
+
+.color-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#submit-guess {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* ------------------ Main Help ----------------- */
+
+main .main-help{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+    max-height: 170vh;
+    background-color: #F3E9D2;
+    max-height: 250vh;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+}
+iframe{
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    padding-top: 15px;
+    width: 1000px;
+    height: 500px;
+}
+p{
+    text-align: center;
+}
+div{
+    margin: 10px;
+}
+.caja{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+/* ------------------ Main Empresa----------------- */
+main .main-empresa{
+    display: flex;
+}
+section.primerParrafo p{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 25px;
+    color: blue;
+}
+/* ------------------ Main Game ----------------- */
+main .main-configuration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+    background-color: #F3E9D2;
+}
+.container-configuration{
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: #000 5px 5px 15px;
+}
+.fila1,
+.fila2,
+.fila3,
+.fila4,
+.fila5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.opcioJugador {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: #969494 5px 5px 15px;
+}
+.colorCorrecte {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: #969494 5px 5px 15px;
+}
+div.botons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+button#comprova, button#reinicia{  
+    background-color: #3DC4E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* ------------------ Main Configuration ----------------- */
+button.save{
+    background-color: #3DC4E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* ------------------ Footer ----------------- */
+footer{
+    background-color: #D9A87E;
+    color: white;
+    text-align: center;
+    padding: 15px; 
+}
