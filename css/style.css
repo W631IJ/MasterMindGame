@@ -1,4 +1,4 @@
-/* ----------FUENTES--------------------*/
+/** ----------FUENTES--------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body{
     height: 100vh;
     background-color: #F3E9D2;
 }
-/* -------------------- Header -------------- */
+/**-------------------- Header -------------- */
 header{
     color:white ;
     background-color: #D9A87E;
@@ -62,6 +62,7 @@ main.gameBoard {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    min-height: 70vh;
 }
 
 #game-board {
@@ -87,6 +88,7 @@ main.gameBoard {
 }
 
 #color-picker {
+    position: relative;
     margin-bottom: 20px;
 }
 
@@ -104,7 +106,7 @@ main.gameBoard {
     font-size: 16px;
     cursor: pointer;
 }
-/* ------------------ Main Help ----------------- */
+/** ------------------ Help ----------------- */
 
 main .main-help{
     display: grid;
@@ -145,72 +147,15 @@ div{
     padding-bottom: 10px;
 }
 
-/* ------------------ Main Empresa----------------- */
+/** ------------------ Main Empresa----------------- */
 main .main-empresa{
-    display: flex;
-}
-section.primerParrafo p{
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 25px;
-    color: blue;
-}
-/* ------------------ Main Game ----------------- */
-main .main-configuration{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 170vh;
     background-color: #F3E9D2;
 }
-.container-configuration{
-    background-color: antiquewhite;
-    width: 700px;
-    margin: auto;
-    padding: 50px;
-    border-radius: 25px;
-    box-shadow: #000 5px 5px 15px;
-}
-.fila1,
-.fila2,
-.fila3,
-.fila4,
-.fila5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-.opcioJugador {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: #969494 5px 5px 15px;
-}
-.colorCorrecte {
-    background-color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 10px;
-    box-shadow: #969494 5px 5px 15px;
-}
-div.botons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-}
-button#comprova, button#reinicia{  
-    background-color: #3DC4E0;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 12px;
-    cursor: pointer;
-}
-/* ------------------ Main Configuration ----------------- */
+/** ------------------ Main Configuration ----------------- */
 button.save{
     background-color: #3DC4E0;
     color: white;

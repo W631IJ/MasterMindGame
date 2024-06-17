@@ -26,27 +26,30 @@
                 Bienvenido a la zona de configuración, en esta sección podrás configurar el juego a tu gusto
             </p>
             <label for="color1">Select a color:</label>
-            <input type="color" id="color1" name="color">
+            <input type="color" id="color1" name="color" value="#FF0000">
             <br>
             <br>
             <label for="color2>">Select a color:</label>
-            <input type="color" id="color2" name="color">
+            <input type="color" id="color2" name="color" value="#008018">
             <br>
             <br>
             <label for="color3">Select a color:</label>
-            <input type="color" id="color3" name="color">
+            <input type="color" id="color3" name="color" value="#0000FF">
             <br>
             <br>
             <label for="color4">Select a color:</label>
-            <input type="color" id="color4" name="color"> 
+            <input type="color" id="color4" name="color" value="#FFFF00"> 
+            <br>
+            <br>
+            <input type="number" id="attempts" name="attempts" placeholder="Número de oportunidades">
             <br>
             <br>
         </form>
-        <button class="save" type="submit" onclick="colorSelected()">Guardar configuración</button>
+        <button class="save" type="submit" onclick="saveSettings()">Guardar configuración</button>
     </main>
     <footer>
         <p>Developed by: <a href=" ">Wisdom</a></p>
     </footer>
 </body>
-<script src="/js/main.js"></script>
+<script src="/js/script1.js"></script>
 </html>
